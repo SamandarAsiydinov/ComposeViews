@@ -15,6 +15,7 @@ import com.example.composeviews.curvedScroll.CurvedScroll
 import com.example.composeviews.draggable.Draggable
 import com.example.composeviews.lazy.ItemSelectable
 import com.example.composeviews.nestedscrollview.NestedScrollView
+import com.example.composeviews.snackbar.MySnackBar
 import com.example.composeviews.swipe.SwipeRefreshCompose
 import com.example.composeviews.ui.theme.ComposeViewsTheme
 
@@ -28,7 +29,8 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    ItemSelectable()
+                    MySnackBar()
+                    //ItemSelectable()
                    // ComposeCanvas()
                     //Draggable()
                     //CurvedScroll()
