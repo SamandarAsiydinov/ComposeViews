@@ -70,4 +70,14 @@ dependencies {
     // coroutine
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.1"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.1"
+
+    //Constraint Layout
+    implementation "androidx.constraintlayout:constraintlayout-compose:1.1.0-alpha02"
+
+    def dimen_version = '1.0.6'
+    implementation "com.intuit.sdp:sdp-android:$dimen_version"
+    implementation "com.intuit.ssp:ssp-android:$dimen_version"
+
+    // MPAndroid chart
+    implementation "com.github.PhilJay:MPAndroidChart:v3.1.0"
 }
